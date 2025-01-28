@@ -1,6 +1,6 @@
 # Advanced-SmartContract-Development-
 
-This repository contains the code developed during the Educba Advanced SmartContract Development Course
+This repository contains the code developed during Educba's SmartContract development courses
 
 ## 📘 Module 1
 
