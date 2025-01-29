@@ -26,3 +26,16 @@ The goal of this project is to implement a secure withdrawal smart contract that
 - Implement mechanisms to prevent reentrancy attacks, such as locking the withdrawal process while it is in progress.
 - Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
 - Optimize the code for gas efficiency and overall performance on the Ethereum network.
+
+## Secure Token Minting Smart Contract Implementation
+
+The challenge of this project is to create a smart contract that prevents overflow and underflow vulnerabilities while minting tokens, ensuring the integrity and security of the token supply.
+The project was intended to use SafeMath but due to changes in the Solidity compiler in new versions this is no longer necessary
+
+### 📌 Project Objectives:
+
+- Design the structure of the token smart contract, including state variables and functions required for minting and burning tokens.
+- Write the mint function to allow the contract owner or authorized parties to mint new tokens securely.
+- Write the burn function to allow token holders to burn their tokens securely.
+- Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
+
