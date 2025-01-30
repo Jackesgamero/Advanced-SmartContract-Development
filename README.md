@@ -2,7 +2,7 @@
 
 This repository contains the code developed during Educba's SmartContract development courses available on the Coursera platform. For each of the implementations the Hardhat framework has been used.
 
-##  Proxy Upgrade Implementation with Hardhat and Ethers.js
+## 📄 Proxy Upgrade Implementation with Hardhat and Ethers.js
 
 As blockchain-based applications evolve, the need to upgrade smart contracts while preserving data and functionality becomes crucial. Traditional methods of contract upgrades can be complex and risky. This project aims to address this challenge by implementing a proxy upgrade pattern using Hardhat and Ethers.js. The project will involve deploying a main smart contract, creating an upgradable contract with new functionalities, and writing scripts to upgrade the main contract seamlessly.
 
@@ -16,7 +16,7 @@ As blockchain-based applications evolve, the need to upgrade smart contracts whi
 - Write scripts to facilitate the upgrade process and verify the functionality.
 
 
-## Secure Withdrawal Smart Contract Implementation
+## 📄 Secure Withdrawal Smart Contract Implementation
 
 The goal of this project is to implement a secure withdrawal smart contract that allows users to withdraw funds without being susceptible to reentrancy attacks.
 
@@ -27,7 +27,7 @@ The goal of this project is to implement a secure withdrawal smart contract that
 - Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
 - Optimize the code for gas efficiency and overall performance on the Ethereum network.
 
-## Secure Token Minting Smart Contract Implementation
+## 📄 Secure Token Minting Smart Contract Implementation
 
 The challenge of this project is to create a smart contract that prevents overflow and underflow vulnerabilities while minting tokens, ensuring the integrity and security of the token supply.
 The project was intended to use SafeMath but due to changes in the Solidity compiler in new versions this is no longer necessary
@@ -39,7 +39,7 @@ The project was intended to use SafeMath but due to changes in the Solidity comp
 - Write the burn function to allow token holders to burn their tokens securely.
 - Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
 
-##  Secure Access-Controlled Smart Contract Implementation
+## 📄 Secure Access-Controlled Smart Contract Implementation
 
  The goal of this project is to implement a smart contract with robust access control mechanisms that allow only the owner to update certain data, providing a secure and transparent solution for controlling access to critical functions or resources.
 
