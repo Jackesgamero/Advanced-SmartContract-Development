@@ -39,3 +39,18 @@ The project was intended to use SafeMath but due to changes in the Solidity comp
 - Write the burn function to allow token holders to burn their tokens securely.
 - Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
 
+##  Secure Access-Controlled Smart Contract Implementation
+
+ The goal of this project is to implement a smart contract with robust access control mechanisms that allow only the owner to update certain data, providing a secure and transparent solution for controlling access to critical functions or resources.
+
+### 📌 Project Objectives:
+
+- Design the structure of the access-control smart contract, including state variables, modifiers, and functions for managing access control.
+- Write modifiers (onlyOwner, onlyAdmin) to restrict access to certain functions based on the caller's role (owner or admin).
+- Ensure that only the contract owner can add or remove admins.
+- Implement functions to allow the contract owner to add or remove admins, granting or revoking their access rights.
+- Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
+
+
+
+
