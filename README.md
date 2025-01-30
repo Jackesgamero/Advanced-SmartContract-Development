@@ -4,7 +4,7 @@ This repository contains the code developed during Educba's SmartContract develo
 
 ## 📄 Proxy Upgrade Implementation with Hardhat and Ethers.js
 
-As blockchain-based applications evolve, the need to upgrade smart contracts while preserving data and functionality becomes crucial. Traditional methods of contract upgrades can be complex and risky. This project aims to address this challenge by implementing a proxy upgrade pattern using Hardhat and Ethers.js. The project will involve deploying a main smart contract, creating an upgradable contract with new functionalities, and writing scripts to upgrade the main contract seamlessly.
+This project consist on implementing a proxy upgrade pattern using Hardhat and Ethers.js. The project will involve deploying a main smart contract, creating an upgradable contract with new functionalities, and writing scripts to upgrade the main contract seamlessly.
 
 
 ### 📌 Project Objectives:
@@ -41,7 +41,7 @@ The project was intended to use SafeMath but due to changes in the Solidity comp
 
 ## 📄 Secure Access-Controlled Smart Contract Implementation
 
- The goal of this project is to implement a smart contract with robust access control mechanisms that allow only the owner to update certain data, providing a secure and transparent solution for controlling access to critical functions or resources.
+The goal of this project is to implement a smart contract with robust access control mechanisms that allow only the owner to update certain data, providing a secure and transparent solution for controlling access to critical functions or resources.
 
 ### 📌 Project Objectives:
 
