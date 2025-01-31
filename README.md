@@ -51,6 +51,8 @@ The goal of this project is to implement a smart contract with robust access con
 - Implement functions to allow the contract owner to add or remove admins, granting or revoking their access rights.
 - Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
 
+## 📄 Secure Counter Increment Smart Contract Implementation
 
+In this project, the task is to implement a smart contract that increments a counter by a specified amount, with the requirement that the provided amount must be greater than zero. If the provided amount is not greater than zero, the transaction should revert with an appropriate error message. The objective is to create a secure and reliable solution that enforces valid input conditions for the counter increment operation.
 
 
