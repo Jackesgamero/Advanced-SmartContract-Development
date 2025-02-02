@@ -56,3 +56,28 @@ The goal of this project is to implement a smart contract with robust access con
 In this project, the task is to implement a smart contract that increments a counter by a specified amount, with the requirement that the provided amount must be greater than zero. If the provided amount is not greater than zero, the transaction should revert with an appropriate error message. The objective is to create a secure and reliable solution that enforces valid input conditions for the counter increment operation.
 
 
+## 📄 Secure Fund Management Smart Contract Implementation
+
+The challenge in this project is to develop a smart contract that allows an owner to deposit and withdraw funds while enforcing access control and handling errors gracefully. Specifically, the contract should return custom errors indicating unauthorized access if a non-owner attempts to withdraw funds and insufficient balance if the withdrawal amount exceeds the contract's balance.
+
+### 📌 Project Objectives:
+
+- Design the structure of the smart contract, including state variables and functions required for fund management.
+- Define an enumeration Error to represent custom error types (None, InsufficientBalance, NotAuthorized).
+- Write the deposit function to allow any address to deposit funds into the contract.
+- Write the withdraw function to allow the owner to withdraw funds from the contract.
+- Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
+
+## 📄 Secure Array Data Management Smart Contract
+
+The challenge in this project is to develop a smart contract that adds an array of values to a public array while mitigating potential DDoS attacks by limiting the size of the input array to prevent excessive gas consumption.
+
+### 📌 Project Objectives:
+
+- Write the addToData function to allow the addition of an array of values to the public data array.
+- Implement gas limits to prevent DDoS attacks by restricting the size of the input array.
+- Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
+
+
+
+
