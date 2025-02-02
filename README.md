@@ -68,4 +68,16 @@ The challenge in this project is to develop a smart contract that allows an owne
 - Write the withdraw function to allow the owner to withdraw funds from the contract.
 - Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
 
+## 📄 Secure Array Data Management Smart Contract
+
+The challenge in this project is to develop a smart contract that adds an array of values to a public array while mitigating potential DDoS attacks by limiting the size of the input array to prevent excessive gas consumption.
+
+### 📌 Project Objectives:
+
+- Write the addToData function to allow the addition of an array of values to the public data array.
+- Implement gas limits to prevent DDoS attacks by restricting the size of the input array.
+- Deploy the smart contract to the Ethereum blockchain using tools like Remix, Truffle, or Hardhat.
+
+
+
 
